@@ -9,8 +9,18 @@ The bot continually does this daily until it runs out of quotes.
 
 ## ℹ️ Information.
 > [!IMPORTANT]
-> After 122 days, the bot will send a final goodbye tweet and go offline. This is due to the archival system holding every single quote in the [kanye.rest API](https://kanye.rest) API. The archival system is in place to prevent duplicate content from being posted.
-> This has been implemented because duplicate posts are disallowed and I'm not going to spend hours compiling thousands of Kanye West quotes.
+> 1. You will need to create a `.env` file with your API keys for the bot to run. Here is a template for you to fill out:
+> ```
+> CONSUMER_KEY="CONSUMER_KEY_HERE"
+> CONSUMER_SECRET="CONSUMER_SECRET_HERE"
+> BEARER_TOKEN="BEARER_TOKEN_HERE"
+> ACCESS_TOKEN="ACCESS_TOKEN_HERE"
+> ACCESS_TOKEN_SECRET="ACCESS_TOKEN_SECRET_HERE"
+> CLIENT_ID="CLIENT_ID_HERE"
+> CLIENT_SECRET="CLIENT_SECRET_HERE"
+> ```
+> 2. After 122 days, the bot will send a final goodbye tweet and go offline. This is due to the archival system holding every single quote in the [kanye.rest API](https://kanye.rest). The archival system is in place to prevent duplicate content from being posted.
+> This has been implemented because duplicate posts are disallowed, and I'm not going to spend hours compiling thousands of Kanye West quotes.
 
 > [!NOTE]
 > The API used in this project is the [kanye.rest API](https://kanye.rest) by [Andrew Jazbec (@ajzbc)](https://github.com/ajzbc).
