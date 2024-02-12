@@ -42,7 +42,6 @@ class Kanye(tweepy.Client):
 
         api = tweepy.API(auth)
 
-        self.create_tweet(text="It's Kanye time.")
         print("You have awoken Kanye.")
 
         self.main_loop()
